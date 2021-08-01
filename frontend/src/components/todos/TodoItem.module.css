@@ -1,0 +1,40 @@
+.todoItem {
+  margin: 1rem 0;
+  padding: 1rem;
+  border: 1px solid #9e6984;
+  color: white;
+  background-color: #9e6984;
+  text-align: left;
+  font-size: 1.5rem;
+  font-weight: bold;
+  border-radius: 30px;
+  cursor: pointer;
+  width: 30rem;
+  display: inline-block;
+  grid-column-start: 1;
+  grid-column-end: 7;
+  grid-row-start: 0;
+  grid-row-end: 1;
+}
+
+.container {
+  display: grid;
+  margin-left: 1rem;
+}
+
+.updateButton {
+  font-size: 17px;
+  grid-column-start: 7;
+  grid-column-end: 8;
+  grid-row-start: 0;
+  grid-row-end: 1;
+}
+
+.deleteButton {
+  margin-left: 1rem;
+  font-size: 17px;
+  grid-column-start: 8;
+  grid-column-end: 9;
+  grid-row-start: 0;
+  grid-row-end: 1;
+}

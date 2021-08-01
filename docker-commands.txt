@@ -1,0 +1,11 @@
+docker run -d \
+    --name some-postgres \
+    -e POSTGRES_PASSWORD=pwd0123456789 \
+    -e POSTGRES_USER=postgres \
+    -e POSTGRES_DATABASE=my_database \
+    -e PGDATA=/var/lib/postgresql/data/pgdata \
+    st-v /cuom/mount:/var/lib/postgresql/data \
+    postgres
+
+
+

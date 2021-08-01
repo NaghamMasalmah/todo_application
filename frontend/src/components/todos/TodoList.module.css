@@ -1,0 +1,13 @@
+.todoList {
+  text-align: center;
+}
+
+.todoList h2 {
+  color: #414040;
+}
+
+.todoList ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
